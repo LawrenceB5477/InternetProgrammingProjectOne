@@ -1,0 +1,221 @@
+body {
+    font-family: sans-serif;
+}
+
+.home {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.home a:hover {
+    font-size: 150%;
+    width: 80%;
+}
+
+.about_me {
+    color: red; 
+}
+
+.education {
+    color: blue;
+}
+
+.hobbies {
+    color: green;
+}
+
+.college {
+    font-weight: bold;
+}
+
+.high-school {
+    font-style: italic;
+}
+
+.certificate {
+    text-decoration: underline;
+}
+
+/* Schedule styles */
+.schedule-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.schedule {
+    text-align: center;
+}
+
+
+.schedule tr:nth-child(even) {
+    background: #aaa;
+}
+
+.schedule tr:first-child {
+    background-color:rgb(136, 220, 226);
+}
+
+.date-list ol {
+    list-style: upper-alpha;
+}
+
+/* Form styles */
+
+.form-wrapper {
+    margin: 0 auto;
+    width: 50%;
+    border: 1px #aaa solid;
+    padding: 2rem;
+}
+
+.form {
+    display: flex; 
+    flex-direction: column;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.form-section input[type=text] {
+    font-size: 1.2rem;
+}
+
+
+.form-section input[type=password] {
+    font-size: 1.2rem;
+}
+.radio-wrapper {
+    display: flex; 
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.radio-left {
+    flex: 1;
+    display: flex; 
+    flex-direction: column;
+    justify-content: left;
+}
+
+.radio-right {
+    flex: 1;
+    display: flex; 
+    flex-direction: column;
+}
+
+.radio-box {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.radio {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    cursor: pointer; 
+    user-select: none;
+}
+
+.radio input {
+    left: 0;
+    top: 0;
+    z-index: 2;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    height: 15px;
+    width: 15px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.radio input:checked ~ .checkmark {
+    background: green;
+}
+
+.form-buttons {
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.form-buttons input {
+    margin: 0rem 0.5rem;
+    color: black;
+    background: white; 
+    border: 1px solid black;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.form-buttons input:hover {
+    background: #333;
+    color: white;
+}
+
+.form-buttons input:active {
+    background: #222;
+    color: white;
+}
+
+.check-boxes {
+    display: flex; 
+    padding: 0.7rem 0.5rem;
+}
+
+.check-boxes .left, .check-boxes .right {
+    flex: 1;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.check-box {
+    flex: 1;
+    width: 100%;
+    display: flex; 
+    padding: 0.5rem
+}
+
+.check {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    cursor: pointer; 
+    user-select: none;
+}
+
+.check input {
+    left: 0;
+    top: 0;
+    z-index: 2;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.check .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    height: 15px;
+    width: 15px;
+    background-color: gray;
+    border-radius: 10%;
+}
+
+.check input:checked ~ .checkmark {
+    background: blue;
+}

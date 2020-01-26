@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Create an Account</title>
+    <link rel="stylesheet" href="./site.css" />
+  </head>
+  <body>
+    <div class="form-wrapper">
+      <form
+        class="form"
+        action="https://unfinishedbusiness.app/alert.php"
+        method="post"
+      >
+        <div class="form-section">
+          <label for="first_name">First Name</label>
+          <input name="first_name" type="text" />
+        </div>
+        <div class="form-section">
+          <label for="last_name">Last Name</label>
+          <input name="last_name" type="text" />
+        </div>
+        <div class="form-section">
+          <label for="email">Email Address</label>
+          <input name="email" type="text" />
+        </div>
+        <div class="form-section">
+          <label for="password">Password</label>
+          <input name="password" type="password" />
+        </div>
+        <div class="form-section">
+          <label for="confirm_password">Confirm Password</label>
+          <input name="confirm_password" type="password" />
+        </div>
+        <div class="form-section">
+          <label for="date">Birth date</label>
+          <input
+            name="date"
+            type="date"
+            value="2015-10-21"
+            min="1970-1-1"
+            max="2020-12-31"
+          />
+        </div>
+
+        <div class="form-section">
+          <label>Degree Track</label>
+          <div class="radio-wrapper">
+            <div class="radio-left">
+              <div class="radio-box">
+                <div class="radio">
+                  <input name="degree" value="computer_science" type="radio" />
+                  <span class="checkmark"> </span>
+                </div>
+                <a
+                  href="https://www.unf.edu/ccec/computing/Computer_Science_Program.aspx"
+                  target="_blank"
+                  >Computer Science</a
+                >
+              </div>
+              <div class="radio-box">
+                <div class="radio">
+                  <input
+                    name="degree"
+                    value="information_science"
+                    type="radio"
+                  />
+                  <span class="checkmark"></span>
+                </div>
+                <a
+                  href="https://www.unf.edu/ccec/computing/Information_Science_Program.aspx"
+                  target="_blank"
+                  >Information Science</a
+                >
+              </div>
+            </div>
+            <div class="radio-right">
+              <div class="radio-box">
+                <div class="radio">
+                  <input
+                    name="degree"
+                    value="information_systems"
+                    type="radio"
+                  />
+                  <span class="checkmark"></span>
+                </div>
+                <a
+                  href="https://www.unf.edu/ccec/computing/Information_Systems_Program.aspx"
+                  target="_blank"
+                  >Information Systems</a
+                >
+              </div>
+              <div class="radio-box">
+                <div class="radio">
+                  <input
+                    name="degree"
+                    value="information_technology"
+                    type="radio"
+                  />
+                  <span class="checkmark"></span>
+                </div>
+                <a
+                  href="https://www.unf.edu/ccec/computing/Information_Technology_Program.aspx"
+                  target="_blank"
+                  >Information Technology</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-section">
+          <label>Programming Language Experience</label>
+          <div class="check-boxes">
+            <div class="left">
+              <div class="check-box">
+                <div class="check">
+                  <input name="c" value="c" type="checkbox" />
+                  <span class="checkmark"></span>
+                </div>
+                <label for="c"
+                  ><a
+                    href="https://en.wikipedia.org/wiki/C_(programming_language)"
+                    target="_blank"
+                    >C</a
+                  ></label
+                >
+              </div>
+              <div class="check-box">
+                <div class="check">
+                  <input name="c_sharp" value="c_sharp" type="checkbox" />
+                  <span class="checkmark"></span>
+                </div>
+                <label for="c_sharp"
+                  ><a
+                    href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
+                    target="_blank"
+                    >C#</a
+                  ></label
+                >
+              </div>
+              <div class="check-box">
+                <div class="check">
+                  <input name="java" value="java" type="checkbox" />
+                  <span class="checkmark"> </span>
+                </div>
+                <label for="java"
+                  ><a
+                    href="https://en.wikipedia.org/wiki/Java_(programming_language)"
+                    target="_blank"
+                    >Java</a
+                  ></label
+                >
+              </div>
+              <div class="check-box">
+                <div class="check">
+                  <input name="javascript" value="javascript" type="checkbox" />
+                  <span class="checkmark"></span>
+                </div>
+                <label for="javascript"
+                  ><a
+                    href="https://en.wikipedia.org/wiki/JavaScript"
+                    target="_blank"
+                    >JavaScript</a
+                  ></label
+                >
+              </div>
+            </div>
+            <div class="right">
+              <div class="check-box">
+                <div class="check">
+                  <input name="php" value="php" type="checkbox" />
+                  <span class="checkmark"> </span>
+                </div>
+                <label for="php"
+                  ><a href="https://en.wikipedia.org/wiki/PHP" target="_blank"
+                    >PHP</a
+                  ></label
+                >
+              </div>
+              <div class="check-box">
+                <div class="check">
+                  <input name="python" value="python" type="checkbox" />
+                  <span class="checkmark"></span>
+                </div>
+                <label for="python"
+                  ><a
+                    href="https://en.wikipedia.org/wiki/Python_(programming_language)"
+                    target="_blank"
+                    >Python</a
+                  ></label
+                >
+              </div>
+
+              <div class="check-box">
+                <div class="check">
+                  <input
+                    name="visual_basic"
+                    value="visual_basic"
+                    type="checkbox"
+                  />
+                  <span class="checkmark"> </span>
+                </div>
+                <label for="visual_basic"
+                  ><a
+                    href="https://en.wikipedia.org/wiki/Visual_Basic"
+                    target="_blank"
+                    >Visual Basic</a
+                  ></label
+                >
+              </div>
+              <div class="check-box">
+                <div class="check">
+                  <input name="other" value="other" type="checkbox" />
+                  <span class="checkmark"></span>
+                </div>
+                <label for="other">Other</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-section form-buttons">
+          <input type="submit" />
+          <input type="reset" />
+        </div>
+        <input type="hidden" name="username" value="309033762" />
+        <input
+          type="hidden"
+          name="to_email_address"
+          value="n01239768@unf.edu"
+        />
+        <input type="hidden" name="to_display_name" value="Lawrence Beutlich" />
+      </form>
+    </div>
+    <a href="./index.html">Personal</a>
+    <a href="./">ePortfolio</a>
+  </body>
+</html>
